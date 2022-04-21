@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:3:5-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:9:5-13:19
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:10:9-72
+	android:name
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:10:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:11:9-86
+	android:name
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:11:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:12:9-89
+	android:name
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml:12:19-87
+uses-sdk
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\src\main\AndroidManifest.xml

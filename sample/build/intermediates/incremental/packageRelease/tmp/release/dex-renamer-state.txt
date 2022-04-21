@@ -1,0 +1,4 @@
+#Thu Apr 21 06:46:28 GST 2022
+base.0=C\:\\Users\\user\\Downloads\\New folder\\Matisse-master\\Matisse-master\\sample\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

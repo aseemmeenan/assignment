@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zhihu.matisse.sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+11-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-80
+12-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:10:22-77
+13
+14    <application
+14-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:5:5-28:19
+15        android:allowBackup="true"
+15-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a38168c820951cc220c36ed0f8635853\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:7:9-43
+18        android:label="OmaEmirates"
+18-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:8:9-36
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:9:9-40
+20        <activity
+20-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:10:9-18:20
+21            android:name="com.zhihu.matisse.sample.SampleActivity"
+21-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:11:13-67
+22            android:configChanges="orientation|screenSize|keyboardHidden" >
+22-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:12:13-74
+23            <intent-filter>
+23-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:14:17-68
+24-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:16:17-76
+26-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <provider
+30-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:19:9-27:20
+31            android:name="androidx.core.content.FileProvider"
+31-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:20:13-62
+32            android:authorities="com.zhihu.matisse.sample.fileprovider"
+32-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:21:13-72
+33            android:exported="false"
+33-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:22:13-37
+34            android:grantUriPermissions="true" >
+34-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:23:13-47
+35            <meta-data
+35-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:24:13-26:71
+36                android:name="android.support.FILE_PROVIDER_PATHS"
+36-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:25:17-67
+37                android:resource="@xml/file_paths_public" />
+37-->C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\sample\src\main\AndroidManifest.xml:26:17-58
+38        </provider>
+39
+40        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+40-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:13:9-73
+40-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-70
+41        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+41-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-87
+41-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:14:19-84
+42        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+42-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-90
+42-->[:matisse] C:\Users\user\Downloads\New folder\Matisse-master\Matisse-master\matisse\build\intermediates\library_manifest\release\AndroidManifest.xml:15:19-87
+43    </application>
+44
+45</manifest>
